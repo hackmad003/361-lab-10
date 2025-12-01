@@ -91,5 +91,3 @@ void waiter(void)
 
     served_customers++;
 }
-        pthread_cond_wait(&customer_seated_cond, &customer_waiting_lock);
-    customer_seated = -1;
